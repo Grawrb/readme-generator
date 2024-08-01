@@ -14,7 +14,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Write a brief description of what you hope to accomplish with this project'
+        message: 'Write a brief description of what you hope to accomplish with this project.'
     },
     {
         type: 'input',
@@ -35,17 +35,17 @@ const questions = [
     {
         type: 'input',
         name: 'contributions',
-        message: 'List your contribution guidelines'
+        message: 'List your contribution guidelines.'
     },
     {
         type: 'input',
         name: 'testing',
-        message: 'List all necessary steps for proper testing of your project'
+        message: 'List all necessary steps for proper testing of your project.'
     },
     {
         type: 'input',
         name: 'user',
-        message: 'Enter your GitHub user name'
+        message: 'Enter your GitHub user name.'
     },
     {
         type: 'input',

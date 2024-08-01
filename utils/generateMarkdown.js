@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== "None") {
-    return `![GitHub License](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    return `![GitHub License](${encodeURI('https://img.shields.io/badge/license-' + license + '-blue.svg')})`;
   }
   return "";
 }
@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "None") {
-    return `\n [License](#license)\n`
+    return `- [License](#license)`
   }
   return "";
 }
@@ -30,47 +30,45 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-          ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
 
-          ## Table of Contents
-          - [Description](#description)
-          - [Installation](#installation)
-          - [Usage](#usage)
-          - [Contributions](#contributions)
-          - [Testing](#testing)
-          - [Questions](#questions)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Testing](#testing)
+- [Questions](#questions)
+${renderLicenseLink(data.license)}
 
-          ## Description
+## Description
 
-          ${data.description}
+${data.description}
 
-          ## Installation
+## Installation
 
-          ${data.installation}
+${data.installation}
 
-          ## Usage
+## Usage
 
-          ${data.usage}
+${data.usage}
 
-          ## Contributions
+## Contributions
 
-          ${data.contributions}
+${data.contributions}
 
-          ## Testing
+## Testing
 
-          ${data.testing}
+${data.testing}
 
-          ## Questions
+## Questions
 
-          For any questions, check my contact info below!
+For any questions, check my contact info below!
 
-          - <a href="https://github.com/${data.user}" alt="GitHub Profile Link"> ${data.user} Github Profile</a>
-          - [Email](mailto:${data.email})
+- <a href="https://github.com/${data.user}" alt="GitHub Profile Link"> ${data.user} Github Profile</a>
+- [Email](mailto:${data.email})
 
-          ## License Information
-
-          ${renderLicenseLink(data.license)}
-          ${renderLicenseSection(data.license)}
+${renderLicenseSection(data.license)}
 `;
 }
 
