@@ -1,4 +1,4 @@
-# Test
+# CLI README Generator
 
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -13,30 +13,30 @@
 
 ## Description
 
-testing
+This REAME Generator runs from the command line interface using the "Inquirer" package from NPM. After answering a series of questions, the application will generate a simple REAME with most base subjects covered.
 
 ## Installation
 
-tests
+To install this application, enter your CLI and type ```npm install```.
 
 ## Usage
 
-test
+Once all necessary packages are installed, type ```node index.js``` into the CLI. Answer all prompts with the information you would like included in your README.md. A new README file will be created within the root directory of this repository. Check the README to ensure it has formatted correctly and all information you would like included has properly been inserted.
 
 ## Contributions
 
-test
+Please fork repository before making any changes. For additional questions, corrections, or if you require assistance, check the contact information listed below.
 
 ## Testing
 
-test
+This application currently has no programmed testing.
 
 ## Questions
 
 For any questions, check my contact info below!
 
-- <a href="https://github.com/test" alt="GitHub Profile Link"> test Github Profile</a>
-- [Email](mailto:test)
+- <a href="https://github.com/Grawrb" alt="GitHub Profile Link"> Grawrb Github Profile</a>
+- [Email](mailto:robmaxfield22@gmail.com)
 
 ## License
     This project is licensed under the MIT license!
