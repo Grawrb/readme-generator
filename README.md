@@ -8,6 +8,7 @@
 - [Usage](#usage)
 - [Contributions](#contributions)
 - [Testing](#testing)
+- [Walkthrough Video](#walkthrough-video)
 - [Questions](#questions)
 - [License](#license)
 
@@ -30,6 +31,13 @@ Please fork repository before making any changes. For additional questions, corr
 ## Testing
 
 This application currently has no programmed testing.
+
+## Walkthrough Video
+
+For a walkthrough of how to use the application, check the video or click the link listed below.
+
+- <video src="https://drive.google.com/file/d/1B3qv8rsP1E1TJYiqyYLLHA-nXErFpM4d/view" width="320" height="240" controls></video>
+- <a href="https://drive.google.com/file/d/1B3qv8rsP1E1TJYiqyYLLHA-nXErFpM4d/view" alt="README Generator Walkthrough Video"> README Generator Walthrough Video</a>
 
 ## Questions
 
